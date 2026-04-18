@@ -38,12 +38,7 @@
             padding-bottom: 32px;
             border-bottom: 1px solid var(--border);
         }
-        .app-icon {
-            width: 96px;
-            height: 96px;
-            border-radius: 22px;
-            margin-bottom: 16px;
-        }
+        .app-icon { width: 96px; height: 96px; border-radius: 22px; margin-bottom: 16px; }
         h1 { font-size: 28px; font-weight: 700; letter-spacing: -0.3px; margin-bottom: 8px; }
         .subtitle { color: var(--muted); font-size: 15px; }
         h2 { font-size: 20px; font-weight: 600; margin: 36px 0 12px; }
@@ -70,6 +65,9 @@
             color: var(--muted);
             text-align: center;
         }
+        .footer-nav { margin-bottom: 10px; }
+        .footer-nav a, .footer-nav span { margin: 0 6px; }
+        .footer-nav .current { color: var(--fg); font-weight: 600; }
     </style>
 </head>
 <body>
@@ -140,8 +138,13 @@
     </div>
 
     <footer>
+        <div class="footer-nav">
+            <a href="https://mingweicui.github.io/voxelvision/">VoxelVision</a> ·
+            <a href="index.html">Privacy Policy</a> ·
+            <span class="current">Support &amp; FAQ</span> ·
+            <a href="acknowledgements.html">Acknowledgements</a>
+        </div>
         <p>© 2026 Mingwei Cui. All rights reserved.</p>
-        <p style="margin-top: 8px;"><a href="index.html">Privacy Policy</a></p>
     </footer>
 </div>
 </body>
